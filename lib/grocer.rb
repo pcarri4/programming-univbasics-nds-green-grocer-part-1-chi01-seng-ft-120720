@@ -21,6 +21,11 @@ cart.each do |item|
   if item[:item]
     item[:count] += 1
     end
+    if item[:count] > 0
+      receipt << item
+    end
+  end
+ receipt
 end
 
 
