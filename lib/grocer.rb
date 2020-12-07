@@ -12,7 +12,7 @@ collection.each do |item|
 end
 
 def consolidate_cart(cart)
-
+  reciept = Array.new
 cart.each do |item|
   count = 0 
   if !item[:count]
