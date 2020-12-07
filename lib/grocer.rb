@@ -21,8 +21,6 @@ cart.each do |item|
   if item[:item]
     item[:count] += 1
     end
-  end
-  cart
 end
 
 
