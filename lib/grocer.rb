@@ -17,7 +17,8 @@ cart.each do |item|
   count = 0 
   if !item[:count]
     item[:count] = count
-    cart = item
+  end 
+  
     end
   end
   cart
