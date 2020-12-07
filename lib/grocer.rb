@@ -8,7 +8,7 @@ collection.each do |item|
     cart = item 
     end
   end
-cart
+  cart
 end
 
 def consolidate_cart(cart)
