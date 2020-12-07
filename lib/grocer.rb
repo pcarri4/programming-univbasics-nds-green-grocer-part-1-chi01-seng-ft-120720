@@ -20,7 +20,7 @@ def consolidate_cart(cart)
 cart = 0
 cart.each do |item|
   count = 0 
-  if !item[:count] == name
+  if !item[:count]
     cart = item
     end
   end
