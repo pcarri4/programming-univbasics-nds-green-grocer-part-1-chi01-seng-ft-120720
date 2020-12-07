@@ -18,7 +18,7 @@ def consolidate_cart(cart)
   # change `cart` (i.e. mutate) it. It's easier to return a new thing.
   
 cart = 0
-collection.each do |item|
+cart.each do |item|
   if item[:item] == name
     cart = item
     end
