@@ -4,7 +4,7 @@ def find_item_by_name_in_collection(name, collection)
   # Consult README for inputs and outputs
 cart = nil 
 collection.each do |item|
-  if item|cart| == name
+  if item|:item| == name
     cart = item 
     end
   end
