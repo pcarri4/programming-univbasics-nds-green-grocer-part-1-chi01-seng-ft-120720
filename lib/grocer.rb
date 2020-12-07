@@ -5,7 +5,7 @@ def find_item_by_name_in_collection(name, collection)
 cart = nil 
 collection.each do |item|
   if item|cart| == name
-    
+    cart = item 
 end
 
 def consolidate_cart(cart)
