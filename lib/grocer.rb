@@ -6,6 +6,8 @@ cart = nil
 collection.each do |item|
   if item|cart| == name
     cart = item 
+  end
+end
 end
 
 def consolidate_cart(cart)
